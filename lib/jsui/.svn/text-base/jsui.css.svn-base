@@ -1,0 +1,212 @@
+/* JSUI css */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+table, th, td {
+	vertical-align: top;
+}
+
+/* Record Class */
+.record {
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	margin: 3px;
+	padding: 0px;
+	width: 100%;
+}
+
+.record .key {
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	background-color: #c3d9ff;
+	margin: 0px;
+	padding: 2px;
+	width: 20%;
+	text-align: right;
+	vertical-align: top;
+}
+
+.record .value {
+	border-bottom: 1px solid #999999;
+	margin: 0px;
+	padding: 2px;
+	width: 80%;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Table Class */
+.table {
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	margin: 3px;
+	padding: 0px;
+	width: 100%;
+}
+
+.table th {
+	background-color: #c3d9ff;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	margin: 0px;
+	padding: 2px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.table td {
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	margin: 0px;
+	padding: 2px;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Form Class */
+.form {
+	margin: 3px;
+	padding: 0px;
+	width: 100%;
+}
+
+.form .item th {
+	background-color: #c3d9ff;
+	margin: 0px;
+	padding: 2px;
+	width: 20%;
+	text-align: right;
+	vertical-align: top;
+}
+
+.form .item td {
+	margin: 0px;
+	padding: 2px;
+	width: 80%;
+	text-align: left;
+	vertical-align: top;
+}
+
+.form .item label {
+	text-align: left;
+	vertical-align: top;
+}
+
+.form .item input,
+.form .item select {
+	width: 99%;
+}
+
+.form .item input[type=checkbox] {
+	width: auto;
+}
+
+.form .buttons th {
+	background-color: #c3d9ff;
+	margin: 0px;
+	padding: 2px;
+}
+
+.form .buttons td {
+	margin: 0px;
+	padding: 2px;
+}
+
+/* NAV */
+
+.menu {
+	border-bottom: 1px solid #999999;
+	background-color: #f0f0f0;
+	background-image:url('gfx/fading-e9e9e9-f0f0f0.png');
+	background-repeat: repeat-y;
+	position: absolute;
+	width: 100%;
+	height: 30px;
+}
+
+.menu ul {
+	line-height: 30px;
+	width: 100%;
+}
+
+.menu ul.main {
+	line-height: 30px;
+	border-bottom: 1px solid #999999;
+}
+
+.menu ul.main li {
+	padding-left: 8px;
+}
+
+.menu ul .top a {
+	display: block;
+	text-decoration: none;
+}
+
+.menu ul .item {
+	display: none;
+}
+
+.menu ul:hover .top {
+	background-color: #d0d0d0;
+	border-bottom: 1px solid #999999;
+}
+
+.menu ul:hover .item {
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-left: 16px;
+	background-color: #f0f0f0;
+	/*
+	background-image:url('gfx/fading-e9e9e9-f0f0f0.png');
+	background-repeat: repeat-y;
+	border-bottom: 1px solid #999999;
+	*/
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+
+.menu ul:hover li.item:hover {
+	background-color: #d0d0d0;
+}
+
+.menu ul:hover .item a {
+	display: block;
+	text-decoration: none;
+}
+
+.menu ul:hover .item a:hover {
+}
+
+.menu ul {
+	width: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu ul.submain {
+	display: none;
+}
+
+.menu .item:hover ul.submain {
+	display: inline;
+	position: relative;
+	top: -29px;
+	right: -78px;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+
+.menu_clear {
+	clear: both;
+	height: 34px;
+}
+
+/* EOF */

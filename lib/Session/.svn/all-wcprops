@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/jsui/!svn/ver/499/trunk/lib/Session
+END
+test-1.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jsui/!svn/ver/499/trunk/lib/Session/test-1.js
+END
+Session.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jsui/!svn/ver/499/trunk/lib/Session/Session.js
+END
